@@ -1,5 +1,40 @@
+
+.CC-border-choose{
+  border: 1px solid #132d4654;
+    width: 300px;
+  height: 280px;
+  border-radius: 8px;
+}
+
+.CC-border-small{
+  border-bottom: 1px solid #132d4654;
+  border-left: 1px solid #132d4654;
+  border-right: 1px solid #132d4654;
+  width: 75px;
+  height: 40px;
+  top: -1px;
+  background-color: white;
+  border-radius:0 0 8px 8px;
+}
+.CC-yello-position{
+  top: -30px;
+}
 // `sm` applies to x-small devices (portrait phones, less than 576px)
+
 @media (max-width: 575.98px) {
+  .CC-border-small{
+    border-bottom: 1px solid #132d4654;
+    border-left: 1px solid #132d4654;
+    border-right: 1px solid #132d4654;
+    width: 75px;
+    height: 40px;
+    top: -1px;
+    background-color: white;
+    border-radius:0 0 8px 8px;
+  }
+  .CC-repo-card{
+    justify-content: center !important;
+  }
   .CC-q {
     flex-wrap: wrap;
 margin-top: 40px !important;

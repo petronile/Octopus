@@ -29,6 +29,9 @@
   .ic-qr {
     background-image: url(../assets/icons/home/qr/Frame.svg);
   }
+  .ic-qr-small {
+    background-image: url(../assets/icons/home/qr/small-qr.svg);
+  }
 
   .ic-android {
     background-image: url(../assets/icons/home/background-header/Google-Play.svg);
@@ -58,6 +61,10 @@
     background-image: url(../assets/icons/home/footer/twit.svg);
   }
 //icons size
+.iC-s18 {
+  width: 18px;
+  height: 18px;
+}
 .iC-s170 {
   width: 170px;
   height: 14px;
@@ -95,8 +102,8 @@
     height: 300px;
   }
   .iC-s-74 {
-    width: 74px;
-    height: 74px;
+    width: 90px;
+    height: 90px;
   }
   .iC-s-135 {
     width: 135px;

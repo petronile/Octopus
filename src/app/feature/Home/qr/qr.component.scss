@@ -5,6 +5,39 @@
   text-decoration: underline;
   text-underline-offset: 20px;
 }
+.CC-border-qr1{
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  height: 40px;
+  width: 40px;
+margin-left: -5px;
+margin-top: -5px;}
+.CC-border-qr2{
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
+  height: 40px;
+  width: 40px;
+margin-left: -5px;
+margin-bottom: -5px;
+bottom: 0;}
+.CC-border-qr3{
+  border-bottom: 3px solid white;
+  border-right: 3px solid white;
+  height: 40px;
+  width: 40px;
+margin-right: -5px;
+margin-bottom: -5px;
+right: 0;
+bottom: 0;}
+.CC-border-qr4{
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+  height: 40px;
+  width: 40px;
+margin-right: -5px;
+margin-top: -5px;
+right: 0;
+top: 0;}
 // `sm` applies to x-small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
   .CC-disable-res {
