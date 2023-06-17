@@ -1,0 +1,65 @@
+// VAR COLORS
+$main: #FFC000;
+
+$secondary:  #132D46;
+;
+$support1: #132D46;
+$support2: #f3f3f3;
+$white: #fff;
+$modal:  #E7EAEC;
+
+$textSecondery:#79869F;
+// Background Color
+.bg-main {
+    background-color: $main;
+}
+
+.bg-secondary {
+    background-color: $secondary ;
+}
+
+.cCC-bg-support1 {
+    background-color: $support1;
+}
+
+.cCC-bg-support2 {
+    background-color: $support2;
+}
+
+.bg-white {
+    background-color: $white;
+}
+
+.cCC-bg-modal {
+    background-color: $modal;
+}
+
+//text Color
+.cCC-text-main {
+    color: $main;
+}
+
+.cCC-text-secondary {
+    color: $secondary;
+}
+
+.cCC-text-support1 {
+    color: $support1;
+}
+
+.cCC-text-white {
+    color: $white;
+}
+.cCC-text-secondery {
+    color: $textSecondery;
+}
+
+//text opacity
+.cCC-opacity-secondary-70 {
+    color: rgba(54, 53, 55, 0.7);
+}
+
+//Background  opacity
+.cCC-opacity-support-19 {
+    background-color: rgba(112, 112, 112, 0.19);
+}

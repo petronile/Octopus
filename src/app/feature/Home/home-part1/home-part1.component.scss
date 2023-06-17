@@ -1,0 +1,51 @@
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+.CC-img-res{
+height: 50vh !important;
+background-position:0%;
+width: 100%;
+overflow: hidden
+}
+.CC-disable-res{
+display: none;
+}
+.CC-media-header-title{
+width: 100% !important;
+height: 100% !important;
+position: static !important;
+top: 250px !important;
+right: 5px !important;
+}
+.CC-text-title{
+color: black;
+position: relative !important;
+width: 100% !important;
+font-size: 18px !important;
+}
+.CC-change-oil-text{
+display: inline;
+}
+.CC-respo-text{
+
+color: black;
+}
+}
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { .CC-text-title{
+  position: relative !important;
+  width: 100% !important;
+  font-size: 20px !important;
+  } }
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+.CC-text-title{
+position: relative !important;
+width: 100% !important;
+font-size: 20px !important;
+}
+
+ }
+
+

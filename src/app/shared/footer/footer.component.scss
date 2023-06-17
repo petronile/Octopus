@@ -1,0 +1,25 @@
+.triangle-5 {
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-left-width: 750px;
+  border-right-width: 750px;
+  border-top: 200px solid #FFF;
+}
+.triangle {
+  display: inline-block;
+  margin: 0 5px;
+  vertical-align: middle;
+  overflow: hidden; /* Hide scrollbars */
+
+}
+@media (max-width: 575.98px) {
+  .triangle-5 {
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-left-width: 197px;
+    border-right-width: 181px;
+    border-top: 161px solid #FFF;
+  }
+}
