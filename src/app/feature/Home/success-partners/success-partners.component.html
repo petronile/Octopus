@@ -1,3 +1,4 @@
+<!-- Success Partners -->
 <div class="mt-5 container">
     <div class="d-flex justify-content-center text-center mt-5">
         <div class="w-50 CC-res-w text-center">
@@ -12,12 +13,9 @@
             </p>
         </div>
     </div>
+<!-- Success Partners img -->
 <div class="row d-flex justify-content-center">
-    <div class="col-2"><i class="iC-s-180 w-100 img-castrol d-flex imCC-Background-Contain"></i></div>
-    <div class="col-2"><i class="iC-s-180 w-100 img-oil-change d-flex imCC-Background-Contain"></i></div>
-    <div class="col-2"><i class="iC-s-180 w-100 img-valvo d-flex imCC-Background-Contain"></i></div>
-    <div class="col-2"><i class="iC-s-180 w-100 img-shell d-flex imCC-Background-Contain"></i></div>
-    <div class="col-2"><i class="iC-s-180 w-100 img-valvo d-flex imCC-Background-Contain"></i></div>
-    <div class="col-2"><i class="iC-s-180 w-100 img-castrol d-flex imCC-Background-Contain"></i></div>
+    <div class="col-2" *ngFor="let item of partners"><i class="iC-s-180 w-100  d-flex imCC-Background-Contain {{item.img}}"></i></div>
+ 
 </div>
 </div>

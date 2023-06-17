@@ -1,6 +1,6 @@
 
 .CC-border{
-width: 64px;
+width: 80px;
 height: 64px;
 background-color: rgba(19, 45, 70, 0.1);
 border-radius: 10px;
@@ -22,3 +22,30 @@ text-align: center;
 width: 150px;
 }
   }
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { .CC-full-w-text{
+  width: 100% !important;
+  }
+  .CC-res-img{
+  width: 315px;
+  }
+  .CC-res-text{
+  text-align: center;
+  }
+  .CC-border{
+  width: 150px;
+  } }
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { .CC-full-w-text{
+  width: 100% !important;
+  }
+  .CC-res-img{
+  width: 315px;
+  }
+  .CC-res-text{
+  text-align: center;
+  }
+  .CC-border{
+  width: 150px;
+  } }

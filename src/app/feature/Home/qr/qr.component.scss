@@ -55,3 +55,34 @@ display: none !important;
 display: inline !important;
 }
 }
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {   .CC-disable-res {
+  display: none !important;
+}
+.CC-underline {
+display: flex;
+  text-decoration: none;
+  text-underline-offset: 20px;
+}
+.CC-qr-text {
+display: none !important;
+}
+.CC-new-text{
+display: inline !important;
+} }
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {  .CC-disable-res {
+  display: none !important;
+}
+.CC-underline {
+display: flex;
+  text-decoration: none;
+  text-underline-offset: 20px;
+}
+.CC-qr-text {
+display: none !important;
+}
+.CC-new-text{
+display: inline !important;
+} }
