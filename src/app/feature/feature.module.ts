@@ -8,13 +8,14 @@ import { HowToUseComponent } from './Home/how-to-use/how-to-use.component';
 import { SuccessPartnersComponent } from './Home/success-partners/success-partners.component';
 import { TrustDriveComponent } from './Home/trust-drive/trust-drive.component';
 import { TermsAndConditionsComponent } from './terms-and-conditions/terms-and-conditions.component';
+import { RouterModule } from '@angular/router';
 
 
 
 @NgModule({
   declarations: [HomePart1Component, ChooseOctopusComponent, QrComponent, HowToUseComponent, SuccessPartnersComponent, TrustDriveComponent, TermsAndConditionsComponent],
   imports: [
-    CommonModule,
+    CommonModule,RouterModule,
     HomeComponent,
     HomePart1Component,ChooseOctopusComponent,QrComponent,HowToUseComponent,SuccessPartnersComponent
   ] ,

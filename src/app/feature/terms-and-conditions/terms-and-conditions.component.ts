@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./terms-and-conditions.component.scss']
 })
 export class TermsAndConditionsComponent {
+  
+  terms: any[];
 
-}
+    constructor() {
+      this.terms = [
+
+{}
+
+     
+      ];
+    }
+  }
+
