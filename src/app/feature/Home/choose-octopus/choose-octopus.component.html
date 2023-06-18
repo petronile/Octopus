@@ -1,10 +1,11 @@
+<section class="w-100 mt-5 " >
 <div class="mt-5 container position-relative w-100"  >
   <div class="d-flex justify-content-center text-center mt-5">
-    <div class="w-50 text-center CC-title-choose">
+    <div class="w-50 text-center CC-title-choose mt-5">
       <div class="w-100 d-flex justify-content-center mb-3">
         <i class="d-flex ic-icon-choose iC-s39"></i>
       </div>
-      <p class="font-Regular-s28 m-0"><span>لماذا تختار آخطبوط</span></p>
+      <p class="font-SemiBold-s28 m-0"><span>لماذا تختار آخطبوط</span></p>
       <p class="font-Regular-s18 m-0 cCC-text-secondery">
 
           في مؤسستنا ، نحن ملتزمون بتزويدك بالمعرفة والمهارات التي تحتاجها
@@ -18,13 +19,14 @@
   <div  class="mt-5 d-flex d-md-block  w-100 justify-content-between " >
     <div class="row d-flex justify-content-between"  >
       <div class="col mt-5  d-flex justify-content-between CC-repo-card" *ngFor="let joke of jokes">
-      <div class="CC-border-choose d-flex justify-content-center position-relative">
+      <div class="CC-border-choose d-flex justify-content-center position-relative"
+    >
         <div class="CC-border-small position-absolute">
           <div
           class="d-flex w-100 justify-content-center position-absolute CC-yello-position"
         >
           <i
-            class="d-flex ic-yello iC-s-74 imCC-Background-Contain justify-content-center align-items-center"
+            class="d-flex ic-yello iC-s-74 imCC-Background-Cover justify-content-center align-items-center"
           >
             <i
               class="{{
@@ -37,8 +39,8 @@
            <div class="text-center position-absolute mt-5">
        
             <p
-              class="font-Regular-s20 m-0 CC-choose-text"
-              style="font-style: normal; font-weight: 600"
+              class="font-SemiBold-s20 m-0 CC-choose-text"
+              style="font-style: normal;"
             >
               {{ joke.title }}
             </p>
@@ -84,3 +86,4 @@
   </div>
 
 </div>
+</section>

@@ -9,11 +9,12 @@ import { SuccessPartnersComponent } from './Home/success-partners/success-partne
 import { TrustDriveComponent } from './Home/trust-drive/trust-drive.component';
 import { TermsAndConditionsComponent } from './terms-and-conditions/terms-and-conditions.component';
 import { RouterModule } from '@angular/router';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 
 
 @NgModule({
-  declarations: [HomePart1Component, ChooseOctopusComponent, QrComponent, HowToUseComponent, SuccessPartnersComponent, TrustDriveComponent, TermsAndConditionsComponent],
+  declarations: [HomePart1Component, ChooseOctopusComponent, QrComponent, HowToUseComponent, SuccessPartnersComponent, TrustDriveComponent, TermsAndConditionsComponent, ContactUsComponent],
   imports: [
     CommonModule,RouterModule,
     HomeComponent,

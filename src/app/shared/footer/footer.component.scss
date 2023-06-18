@@ -2,7 +2,7 @@
   width: 0;
   height: 0;
   border: 0 solid transparent;
-  border-left-width: 750px;
+  border-left-width: 770px;
   border-right-width: 750px;
   border-top: 200px solid #FFF;
 }
@@ -18,8 +18,29 @@
     width: 0;
     height: 0;
     border: 0 solid transparent;
-    border-left-width: 197px;
+    border-left-width: 210px;
     border-right-width: 181px;
     border-top: 161px solid #FFF;
+    z-index: 999;
   }
 }
+// .CC-bg-footer{
+//   height: 400px;
+// }
+// .triangle{
+//   width: 0;
+//   height: 0;
+// border: 0 solid transparent;
+//   border-left-width: 770px;
+//   border-right-width: 750px;
+//   border-top: 220px solid #FFF;
+// }
+// @media (max-width: 575.98px) {
+//   .triangle {
+//     width: 0;
+//     height: 0;
+//     border-left-width: 210px;
+//     border-right-width: 181px;
+//     border-top: 161px solid #FFF;
+//   }
+// }
