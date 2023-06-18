@@ -13,6 +13,17 @@
   overflow: hidden; /* Hide scrollbars */
 
 }
+@media (max-width: 991.98px){
+  .triangle-5 {
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-left-width: 340px;
+    border-right-width: 421px;
+    border-top: 161px solid #FFF;
+    z-index: 999;
+  }
+}
 @media (max-width: 575.98px) {
   .triangle-5 {
     width: 0;
@@ -24,23 +35,3 @@
     z-index: 999;
   }
 }
-// .CC-bg-footer{
-//   height: 400px;
-// }
-// .triangle{
-//   width: 0;
-//   height: 0;
-// border: 0 solid transparent;
-//   border-left-width: 770px;
-//   border-right-width: 750px;
-//   border-top: 220px solid #FFF;
-// }
-// @media (max-width: 575.98px) {
-//   .triangle {
-//     width: 0;
-//     height: 0;
-//     border-left-width: 210px;
-//     border-right-width: 181px;
-//     border-top: 161px solid #FFF;
-//   }
-// }
