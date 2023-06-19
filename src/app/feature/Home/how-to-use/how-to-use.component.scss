@@ -9,25 +9,6 @@ background-color: rgba(19, 45, 70, 0.1);
 border-radius: 10px;
 }
 
-
-// `md` applies to small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) { .CC-full-w-text{
-  width: 100% !important;
-  }
-  .CC-res-img{
-    width: 250px;
-    
-  }
-  .CC-res-img{
-  width: 315px;
-  }
-  .CC-res-text{
-  text-align: center;
-  }
-  .CC-border{
-  width: 150px;
-  } }
-
 // `lg` applies to medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) { .CC-full-w-text{
   width: 100% !important;
@@ -41,8 +22,9 @@ border-radius: 10px;
     width: 100% !important;
   }
   .CC-res-img{
-  width: 100% !important;
-  }
+    width: 400px !important;
+    height: 350px !important;
+    }
   .CC-res-text{
   text-align: center;
   }
@@ -56,6 +38,26 @@ border-radius: 10px;
   .CC-border{
   width: 150px;
   } }
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { .CC-full-w-text{
+  width: 100% !important;
+  }
+  .CC-res-img{
+    width: 250px;
+    
+  }
+  .CC-res-img{
+  width: 315px !important;
+  height: 280px !important;
+  }
+  .CC-res-text{
+  text-align: center;
+  }
+  .CC-border{
+  width: 150px;
+  } }
+
+
   // `sm` applies to x-small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
   .CC-res-img{
@@ -67,6 +69,7 @@ border-radius: 10px;
   }
   .CC-res-img{
   width: 315px;
+  height: 250px;
   }
   .CC-res-text{
   text-align: center !important;

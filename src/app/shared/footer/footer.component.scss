@@ -1,33 +1,62 @@
-.triangle-5 {
+// .triangle-5 {
  
-  border-left: 825px solid transparent;
-  border-right: 825px solid transparent;
-  border-top: 200px solid white;
+//   border-left: 825px solid transparent;
+//   border-right: 825px solid transparent;
+//   border-top: 200px solid white;
+// }
+// .triangle {
+//   display: inline-block;
+//   margin: 0 5px;
+//   vertical-align: middle;
+//   overflow: hidden; /* Hide scrollbars */
+
+// }
+// @media (max-width: 991.98px){
+//   .triangle-5 {
+ 
+//     border-left-width: 340px;
+//     border-right-width: 421px;
+//     border-top: 161px solid #FFF;
+//     z-index: 999;
+//   }
+// }
+// @media (max-width: 575.98px) {
+//   .triangle-5 {
+//     width: 0;
+//     height: 0;
+//     border: 0 solid transparent;
+//     border-left-width: 210px;
+//     border-right-width: 181px;
+//     border-top: 161px solid #FFF;
+//     z-index: 999;
+//   }
+// }
+.CC-a{
+  height: 480px;
 }
 .triangle {
-  display: inline-block;
-  margin: 0 5px;
-  vertical-align: middle;
-  overflow: hidden; /* Hide scrollbars */
 
+  margin: auto;
+  padding: 10%;
+  width: 100%;
+  clip-path: polygon(0% 0, 100% 0%, 50% 100%);
+  background-color: white;
 }
-@media (max-width: 991.98px){
-  .triangle-5 {
- 
-    border-left-width: 340px;
-    border-right-width: 421px;
-    border-top: 161px solid #FFF;
-    z-index: 999;
-  }
+.CC-oct-img{
+  z-index: 999;
+  bottom: 50px;;
 }
 @media (max-width: 575.98px) {
-  .triangle-5 {
-    width: 0;
-    height: 0;
-    border: 0 solid transparent;
-    border-left-width: 210px;
-    border-right-width: 181px;
-    border-top: 161px solid #FFF;
-    z-index: 999;
+  .CC-a{
+    height: 280px;
   }
+  .CC-oct-img{
+    z-index: 999;
+    bottom: 10px;;
+  }
+  .iC-s-120 {
+    width: 62px;
+    height: 81px;
+    
+}
 }

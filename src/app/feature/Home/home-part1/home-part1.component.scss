@@ -6,10 +6,44 @@
   
   }
 
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 1180.98px) {
+  .CC-text-title{
+  position: relative !important;
+  width: 100% !important;
+  font-size: 20px !important;
+  color: black !important;    
 
+  }
+  .CC-media-header-title {
+    width: 100% !important;
+    height: 100% !important;
+    position: static !important;
+    top: 250px !important;
+    right: 5px !important;
+    padding-right: 5px;
+      margin-top: 24px;
+    
+  }
+  .CC-respo-text{
+
+    color: black;
+    } 
+    
+   }
+   // `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+  
+  .CC-text-title{
+  position: relative !important;
+  width: 100% !important;
+  font-size: 20px !important;
+  } }
 // `sm` applies to x-small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
-
+.CC-media-header-title {
+  margin-top: 24px;
+}
 .CC-img-res{
 height: 50vh !important;
 background-position:0%;
@@ -42,21 +76,8 @@ display: inline;
 color: black;
 }
 }
-// `md` applies to small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) { .CC-text-title{
-  position: relative !important;
-  width: 100% !important;
-  font-size: 20px !important;
-  } }
 
-// `lg` applies to medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) {
-.CC-text-title{
-position: relative !important;
-width: 100% !important;
-font-size: 20px !important;
-}
 
- }
+
 
 

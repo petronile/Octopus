@@ -38,6 +38,36 @@ margin-right: -5px;
 margin-top: -5px;
 right: 0;
 top: 0;}
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 1200.98px) {  .CC-disable-res {
+  display: none !important;
+}
+.CC-underline {
+display: flex;
+  text-decoration: none;
+  text-underline-offset: 20px;
+}
+.CC-qr-text {
+display: none !important;
+}
+.CC-new-text{
+display: inline !important;
+} }
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {   .CC-disable-res {
+  display: none !important;
+}
+.CC-underline {
+display: flex;
+  text-decoration: none;
+  text-underline-offset: 20px;
+}
+.CC-qr-text {
+display: none !important;
+}
+.CC-new-text{
+display: inline !important;
+} }
 // `sm` applies to x-small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
   .CC-disable-res {
@@ -55,34 +85,5 @@ display: none !important;
 display: inline !important;
 }
 }
-// `md` applies to small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) {   .CC-disable-res {
-  display: none !important;
-}
-.CC-underline {
-display: flex;
-  text-decoration: none;
-  text-underline-offset: 20px;
-}
-.CC-qr-text {
-display: none !important;
-}
-.CC-new-text{
-display: inline !important;
-} }
 
-// `lg` applies to medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) {  .CC-disable-res {
-  display: none !important;
-}
-.CC-underline {
-display: flex;
-  text-decoration: none;
-  text-underline-offset: 20px;
-}
-.CC-qr-text {
-display: none !important;
-}
-.CC-new-text{
-display: inline !important;
-} }
+
