@@ -1,12 +1,33 @@
 .CC-trust{
-    width: 1280px;
-    height: 472px;
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
 }
+.CC-col-text{
+  right: 0;
+  padding-left: 200px;
+
+  height: 100%;
+ 
+}
+.CC-img-res{
+  margin-top: -70px;
+}
 @media (max-width: 575.98px) {
+  .CC-col-text{
+    right: 0;
+    padding-left: 0px;
+  width: 100% !important;
+    height: 100%;
+   
+  }
+  .CC-img-res{
+    position: relative !important;
+    margin-top: -50px !important;
+  }
   .CC-trust{
     width: 100% !important;
-    height: 1045px;
+    height: 100%;
     border-radius: 20px;
     margin-top: -70px !important;
 }
@@ -15,8 +36,7 @@
 
 }
 .img-trust{
-  width: auto;
-  height: 500px;
+  height: 334px;
 }
 .CC-res-drive{
   margin-top: 0 !important;

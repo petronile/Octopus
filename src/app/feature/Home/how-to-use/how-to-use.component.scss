@@ -1,4 +1,7 @@
-
+// section{
+//   margin-top: 96px !important;
+//   border: 1px solid red;
+// }
 .CC-border{
 width: 80px;
 height: 64px;
@@ -6,23 +9,7 @@ background-color: rgba(19, 45, 70, 0.1);
 border-radius: 10px;
 }
 
-// `sm` applies to x-small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {
 
-.CC-full-w-text{
-width: 100% !important;
-
-}
-.CC-res-img{
-width: 315px;
-}
-.CC-res-text{
-text-align: center;
-}
-.CC-border{
-width: 150px;
-}
-  }
 // `md` applies to small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) { .CC-full-w-text{
   width: 100% !important;
@@ -43,9 +30,11 @@ width: 150px;
 
   }
   .CC-row-res{
+    margin-left: 5px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column-reverse;
+    width: 100% !important;
   }
   .CC-res-img{
   width: 100% !important;
@@ -55,8 +44,38 @@ width: 150px;
   }
   .CC-res-col{
     width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+
 
   }
   .CC-border{
   width: 150px;
   } }
+  // `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .CC-res-img{
+    width: 100% !important;
+    }
+  .CC-full-w-text{
+  width: 100% !important;
+  
+  }
+  .CC-res-img{
+  width: 315px;
+  }
+  .CC-res-text{
+  text-align: center !important;
+  
+  }
+  .CC-border{
+  width: 150px;
+  }
+  .CC-res-col{
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+
+
+  }
+    }
