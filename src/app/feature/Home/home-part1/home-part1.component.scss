@@ -12,6 +12,8 @@
   position: relative !important;
   width: 100% !important;
   font-size: 20px !important;
+  padding: 10px;
+
   color: black !important;    
 
   }
@@ -21,7 +23,7 @@
     position: static !important;
     top: 250px !important;
     right: 5px !important;
-    padding-right: 5px;
+    padding-right: 10px;
       margin-top: 24px;
     
   }
@@ -38,6 +40,8 @@
   position: relative !important;
   width: 100% !important;
   font-size: 20px !important;
+  padding: 10px;
+
   } }
 // `sm` applies to x-small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
