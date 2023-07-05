@@ -27,14 +27,16 @@
         </div>
         <div class="col CC-res-col px-0">
             <div class="CC-res-text" dir="rtl">
-                <p class="m-0 font-Regular-s28">كيف تستتخدم تطبيق آخطبوط</p>
+                <p class="m-0 font-Regular-s28">كيف تستتخدم تطبيق <span class="cCC-text-main">آخطبوط</span></p>
                 <p class="m-0 font-Regular-s18 cCC-text-secondery"> قم بتنزيل التطبيق اليوم ودعنا نعتني باحتياجات تغيير
-                    الزيت في سيارتك بكفاءة وخبرة!</p>
+                    الزيت في سيارتك بكفاءة وخبرة</p>
             </div>
             <div dir="rtl" class="d-flex mt-5 align-items-center" *ngFor="let item of itemsDetails">
-                <div class="CC-border d-flex justify-content-center align-items-center"><i
-                        class="ic-corect-mark d-flex iC-s-32"></i>
+              <div class="">
+                <div class="CC-border d-flex justify-content-center align-items-center">
+                  <i class="ic-corect-mark d-flex iC-s-32"></i>
                 </div>
+              </div>
                 <div class="p-2">
                     <p class="m-0 font-Regular-s18" style="font-weight: 700;">{{ item.title }}</p>
                     <p class="m-0 mt-2 font-Regular-s14" style="font-weight: 600; color:#6A6E79 ;">{{ item.description

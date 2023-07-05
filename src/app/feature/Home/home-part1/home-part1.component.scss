@@ -1,13 +1,23 @@
 .CC-media-header-title{
-  top: 217px;
+  top: 100px;
   right: 80px;
   font-style: normal;
   font-weight: 600;
-  
   }
-
+.CC-discritpion-header{
+  background-color: rgba(0, 0, 0, 0.388);
+  padding: 10px;
+  border-radius:10px ;
+  -webkit-border-radius:10px ;
+  -moz-border-radius:10px ;
+  -ms-border-radius:10px ;
+  -o-border-radius:10px ;
+}
 // `lg` applies to medium devices (tablets, less than 992px)
 @media (max-width: 1180.98px) {
+  .CC-discritpion-header{
+    background-color: white;
+  }
   .CC-text-title{
   position: relative !important;
   width: 100% !important;
@@ -35,6 +45,9 @@
    }
    // `md` applies to small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) { 
+  .CC-discritpion-header{
+    background-color: white;
+  }
   
   .CC-text-title{
   position: relative !important;
@@ -45,6 +58,9 @@
   } }
 // `sm` applies to x-small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+  .CC-discritpion-header{
+    background-color: white;
+  }
 .CC-media-header-title {
   margin-top: 24px;
 }
@@ -78,6 +94,9 @@ display: inline;
 .CC-respo-text{
 
 color: black;
+}
+.CC-discritpion-header{
+  background-color: white;
 }
 }
 

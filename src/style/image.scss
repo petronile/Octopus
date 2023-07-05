@@ -1,10 +1,11 @@
 // Header Image
 .img-home-bg {
-    background-image: url(../assets/images/home/bg.svg);
+    background-image: url(../assets/images/home/bg.webp);
 }
 .img-how-to-use-bg {
-    background-image: url(../assets/images/home/how-to-use/how-to-use-img.svg);
+    background-image: url(../assets/images/home/how-to-use/47.png);
 }
+
 .img-castrol {
     background-image: url(../assets/images/home/Success-Partners/aramco2.svg);
 }
@@ -19,15 +20,15 @@
 }
 
 .img-trust {
-    background-image: url(../assets/images/home/trust-drive/smart-phone.svg);
+    background-image: url(../assets/images/home/trust-drive/smart-phone.png);
 }
 
 //All companies
 
 .imCC-Background-Cover {
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: Cover;    object-fit: cover;
 }
 
 .imCC-Background-Contain {

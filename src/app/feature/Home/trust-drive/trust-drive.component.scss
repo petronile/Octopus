@@ -62,17 +62,20 @@ height: 450px !important;
 
 // X-Small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
-  
+
   .CC-trust {
     display: flex;
     flex-direction: column-reverse;
   }
-  
-  
+
+
   .CC-img-res{
     position: static !important;
   width: 350px !important;
   height: 350px !important;
+}
+.container{
+margin-top: 20px !important;
 }
  }
 
@@ -83,7 +86,7 @@ height: 450px !important;
 //     padding-left: 0px;
 //   width: 100% !important;
 //     height: 100%;
-   
+
 //   }
 //   .CC-img-res{
 //     position: relative !important;
@@ -123,7 +126,7 @@ height: 450px !important;
 // }
 // .img-trust{
 //   width: 100% !important;
-// padding: 0;    
+// padding: 0;
 
 // }
 // .CC-res-drive{
