@@ -24,9 +24,18 @@
   font-size: 20px !important;
   padding: 10px;
 
-  color: black !important;    
+  color: black !important;
 
   }
+  .CC-text-title-actops{
+    position: relative !important;
+    width: 100% !important;
+    font-size: 20px !important;
+    padding: 10px;
+
+    color: #FFC000 !important;
+
+    }
   .CC-media-header-title {
     width: 100% !important;
     height: 100% !important;
@@ -35,20 +44,20 @@
     right: 5px !important;
     padding-right: 10px;
       margin-top: 24px;
-    
+
   }
   .CC-respo-text{
 
     color: black;
-    } 
-    
+    }
+
    }
    // `md` applies to small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) { 
+@media (max-width: 767.98px) {
   .CC-discritpion-header{
     background-color: white;
   }
-  
+
   .CC-text-title{
   position: relative !important;
   width: 100% !important;
